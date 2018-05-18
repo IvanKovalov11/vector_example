@@ -101,12 +101,12 @@ public:
 		}
 	}
 
-	int & operator [](std::size_t index)
+	T & operator [](std::size_t index)
 	{
 		return elements_[index];
 	}
 
-	int operator [](std::size_t index) const
+	T operator [](std::size_t index) const
 	{
 		return elements_[index];
 	}
