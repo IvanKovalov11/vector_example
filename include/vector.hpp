@@ -56,7 +56,7 @@ public:
 		return capacity_;
 	}
 
-	void push_back(int value)
+	void push_back(T value)
 	{
 		if (capacity_ == 0)
 		{
