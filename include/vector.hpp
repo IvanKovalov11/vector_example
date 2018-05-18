@@ -63,7 +63,7 @@ public:
 			size_ = 1;
 			capacity_ = 1;
 			elements_ = new T[capacity_];
-			elements_ = value;
+			elements_[0] = value;
 		}
 		else
 		{
