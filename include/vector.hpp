@@ -164,7 +164,7 @@ public:
 };
 
 template <typename T>
-bool operator !=(vector_t><T> const & lhs, vector_t<T> const & rhs)
+bool operator !=(vector_t<T> const & lhs, vector_t<T> const & rhs)
 {
 	bool success = true;
 	if (lhs == rhs) 
